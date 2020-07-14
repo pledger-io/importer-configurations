@@ -1,0 +1,21 @@
+{
+  "has-headers": false,
+  "apply-rules": true,
+  "generate-accounts": true,
+  "date-format": "yyyyMMdd",
+  "delimiter": "\t",
+  "column-roles": [
+    "account-number",
+    "_ignore",
+    "transaction-date",
+    "_ignore",
+    "_ignore",
+    "_ignore",
+    "amount",
+    "description",
+    "opposing-name",
+    "account-iban",
+    "opposing-iban"
+  ],
+  "custom-indicator": null
+}
