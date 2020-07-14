@@ -1,29 +1,20 @@
-# README #
+# FinTrack Import configurations #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository contains all preconfigured CSV import configurations supported by FinTrack. If you want to import a CSV file check this repository for a bank in your country and download the corresponding configuration file.
 
-### What is this repository for? ###
+### Adding a new configuration ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+If your bank is not yet listed in the repository then it would be appreciated if you add the configuration using the following steps:
 
-### How do I get set up? ###
+* Fork the repository
+* Clone the fork you made
+* Locate the country code of the country your bank is located in, create a new directory if it does not yet exist
+* Create a new file with your bankname
+* Commit the file and create a pull-request into this repository
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+The file you created should be under:
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+```
+<country code>/<bank name>.json
+```
