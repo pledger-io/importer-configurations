@@ -3,7 +3,7 @@
   "apply-rules": true,
   "generate-accounts": true,
   "date-format": "yyyyMMdd",
-  "delimiter": ",",
+  "delimiter": ";",
   "column-roles": [
     "transaction-date",
     "opposing-name",
