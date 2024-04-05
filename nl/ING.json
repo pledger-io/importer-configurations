@@ -13,7 +13,9 @@
     "custom-indicator",
     "amount",
     "_ignore",
-    "description"
+    "description",
+    "_ignore",
+    "_ignore"
   ],
   "custom-indicator": {
     "deposit": "BIJ",
